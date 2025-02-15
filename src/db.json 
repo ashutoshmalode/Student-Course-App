@@ -1,0 +1,21 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "React Basics",
+      "instructor": "John Doe",
+      "description": "Introduction to React fundamentals",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://via.placeholder.com/150",
+      "duration": "4 weeks",
+      "schedule": "Monday & Wednesday, 6 PM - 8 PM",
+      "location": "Online",
+      "prerequisites": ["Basic JavaScript"],
+      "syllabus": [
+        { "week": 1, "topic": "Intro to React", "content": "JSX, Components" },
+        { "week": 2, "topic": "State & Props", "content": "Managing state" }
+      ],
+      "students": [{ "id": 101, "name": "Alice", "email": "alice@example.com" }]
+    }
+  ]
+}
